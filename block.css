@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    /* выровнял по одоной строчке */
+    display: flex;
+    /* выставил в один уровень */
+    align-items: center;
+    /* разместил элементы  */
+    justify-content: space-around;
+    /* установить отступы с верху снизу справа слева */
+    padding: 1px 15px;
+
+}
+
+.menu {
+    display: flex;
+    /* убирает маркеры */
+    list-style: none;
+}
+
+.menu li {
+    font-family: 'Courier New', Courier, monospace;
+    /* отступы */
+    margin-left: 60px;
+}
+
+.menu li a {
+    /* подчеркивание */
+    text-decoration: none;
+    color: rgb(41, 6, 139);
+
+}
+
+.menu li a:hover {
+    color: coral;
+}
+
+.block1 {
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 25%, 0.5);
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    height: 1000px;
+    margin-top: 100px;
+
+
+
+}
+
+.header-1 {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    background-image: url(img/fonwall.ru-grungy-texture-floor-wall.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
