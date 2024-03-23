@@ -15,7 +15,10 @@ h6 {
     /* разместил элементы  */
     justify-content: space-around;
     /* установить отступы с верху снизу справа слева */
-    padding: 1px 15px;
+    padding: 2px 15px;
+    background-color: rgba(54, 68, 68, 0.5);
+    border-radius: 10px;
+    margin-right: 15px;
 
 }
 
@@ -23,6 +26,7 @@ h6 {
     display: flex;
     /* убирает маркеры */
     list-style: none;
+    font-size: 24px;
 }
 
 .menu li {
@@ -44,7 +48,7 @@ h6 {
 
 .block1 {
     border-radius: 10px;
-    background-color: hsl(0, 100%, 25%, 0.5);
+    background-color: rgba(54, 68, 68, 0.5);
     position: absolute;
     width: 50%;
     left: 25%;
@@ -65,4 +69,36 @@ body {
     background-image: url(img/fonwall.ru-grungy-texture-floor-wall.jpeg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.saidbar {
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    background-color: rgba(54, 68, 68, 0.5);
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+
+
+}
+
+.bar li:hover {
+    color: coral;
+
+
+}
+
+.bar li {
+    font-size: 30px;
+
+}
+
+.bar li a {
+    text-decoration: none;
+    color: rgb(41, 6, 139);
+    font-size: 30px;
+    display: flex;
+    padding: 40px;
+
 }
